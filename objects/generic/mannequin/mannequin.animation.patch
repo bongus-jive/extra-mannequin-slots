@@ -74,7 +74,7 @@
           "pat_extraslots:2": {
             "body": { "properties": { "zLevel": 3.02, "image": "<frameSet>:idle.1<directives>" } }
           } } } },
-    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:1f",
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:2f",
       "value": {
         "properties": { "centered": false, "offset": [ 0, 0.125 ] },
         "partStates": {
