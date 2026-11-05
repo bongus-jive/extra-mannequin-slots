@@ -1,0 +1,345 @@
+[
+  [
+    { "op": "add", "path": "/partTagDefaults/pat_extraslots:1", "value": { "frameSet": "", "directives": "" } },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:2" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:3" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:4" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:5" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:6" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:7" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:8" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:9" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:10" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:11" },
+    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:12" }
+  ],
+  [
+    {
+      "op": "add", "path": "/animatedParts/stateTypes/pat_extraslots:1",
+      "value": { "default": "hide", "states": { "hide": { }, "head": { }, "body": { }, "legs": { }, "back": { } } }
+    },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:2" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:3" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:4" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:5" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:6" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:7" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:8" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:9" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:10" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:11" },
+    { "op": "copy", "from": "/animatedParts/stateTypes/pat_extraslots:1", "path": "/animatedParts/stateTypes/pat_extraslots:12" }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:1",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:1": {
+            "head": { "properties": { "zLevel": 8.01, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.01, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.01, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.01, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:1b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:1": {
+            "body": { "properties": { "zLevel": 3.01, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:1f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:1": {
+            "body": { "properties": { "zLevel": 10.01, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:2",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:2": {
+            "head": { "properties": { "zLevel": 8.02, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.02, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.02, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.02, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:2b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:2": {
+            "body": { "properties": { "zLevel": 3.02, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:1f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:2": {
+            "body": { "properties": { "zLevel": 10.02, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:3",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:3": {
+            "head": { "properties": { "zLevel": 8.03, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.03, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.03, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.03, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:3b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:3": {
+            "body": { "properties": { "zLevel": 3.03, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:3f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:3": {
+            "body": { "properties": { "zLevel": 10.03, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:4",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:4": {
+            "head": { "properties": { "zLevel": 8.04, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.04, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.04, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.04, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:4b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:4": {
+            "body": { "properties": { "zLevel": 3.04, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:4f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:4": {
+            "body": { "properties": { "zLevel": 10.04, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:5",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:5": {
+            "head": { "properties": { "zLevel": 8.05, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.05, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.05, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.05, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:5b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:5": {
+            "body": { "properties": { "zLevel": 3.05, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:5f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:5": {
+            "body": { "properties": { "zLevel": 10.05, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:6",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:6": {
+            "head": { "properties": { "zLevel": 8.06, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.06, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.06, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.06, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:6b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:6": {
+            "body": { "properties": { "zLevel": 3.06, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:6f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:6": {
+            "body": { "properties": { "zLevel": 10.06, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:7",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:7": {
+            "head": { "properties": { "zLevel": 8.07, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.07, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.07, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.07, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:7b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:7": {
+            "body": { "properties": { "zLevel": 3.07, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:7f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:7": {
+            "body": { "properties": { "zLevel": 10.07, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:8",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:8": {
+            "head": { "properties": { "zLevel": 8.08, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.08, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.08, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.08, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:8b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:8": {
+            "body": { "properties": { "zLevel": 3.08, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:8f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:8": {
+            "body": { "properties": { "zLevel": 10.08, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:9",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:9": {
+            "head": { "properties": { "zLevel": 8.09, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.09, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.09, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.09, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:9b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:9": {
+            "body": { "properties": { "zLevel": 3.09, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:9f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:9": {
+            "body": { "properties": { "zLevel": 10.09, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:10",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:10": {
+            "head": { "properties": { "zLevel": 8.10, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.10, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.10, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.10, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:10b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:10": {
+            "body": { "properties": { "zLevel": 3.10, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:10f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:10": {
+            "body": { "properties": { "zLevel": 10.10, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:11",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:11": {
+            "head": { "properties": { "zLevel": 8.11, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.11, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.11, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.11, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:11b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:11": {
+            "body": { "properties": { "zLevel": 3.11, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:11f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:11": {
+            "body": { "properties": { "zLevel": 10.11, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ],
+  [
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:12",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:12": {
+            "head": { "properties": { "zLevel": 8.12, "image": "<frameSet>:normal<directives>" } },
+            "body": { "properties": { "zLevel": 7.12, "image": "<frameSet>:idle.1<directives>" } },
+            "legs": { "properties": { "zLevel": 6.12, "image": "<frameSet>:idle.1<directives>" } },
+            "back": { "properties": { "zLevel": 2.12, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:12b",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:12": {
+            "body": { "properties": { "zLevel": 3.12, "image": "<frameSet>:idle.1<directives>" } }
+          } } } },
+    { "op": "add", "path": "/animatedParts/parts/pat_extraslots:12f",
+      "value": {
+        "properties": { "centered": false, "offset": [ 0, 0.125 ] },
+        "partStates": {
+          "pat_extraslots:12": {
+            "body": { "properties": { "zLevel": 10.12, "image": "<frameSet>:idle.1<directives>" } }
+          } } } }
+  ]
+]
