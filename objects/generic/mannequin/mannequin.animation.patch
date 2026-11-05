@@ -1,19 +1,5 @@
 [
   [
-    { "op": "add", "path": "/partTagDefaults/pat_extraslots:1", "value": { "frameSet": "", "directives": "" } },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:2" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:3" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:4" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:5" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:6" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:7" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:8" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:9" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:10" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:11" },
-    { "op": "copy", "from": "/partTagDefaults/pat_extraslots:1", "path": "/partTagDefaults/pat_extraslots:12" }
-  ],
-  [
     {
       "op": "add", "path": "/animatedParts/stateTypes/pat_extraslots:1",
       "value": { "default": "hide", "states": { "hide": { }, "head": { }, "body": { }, "legs": { }, "back": { } } }
